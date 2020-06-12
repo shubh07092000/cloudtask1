@@ -1,8 +1,14 @@
-<b> This is Shubh Gupta's page</b> 
+<body bgcolor='aqua'>
+This is Shubh Gupta's page
 <pre>
+<html>
+<body>
 <?php
-echo "<body style='background-color:aqua'>";
-echo "<img src='dzysjyuepsgzu.cloudfront.net/shubh.jpeg' width='1000' height='800'/>";
+
+echo "<img src='https://d1jipf7e5rct9q.cloudfront.net
+/shubh.jpeg' width='200' height='270'/>"
 
 ?>
+</body>
+<html>
 </pre>
