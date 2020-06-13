@@ -119,14 +119,6 @@ locals {
   s3_origin_id = "myS3Origin"
 }
 
-resource "aws_s3_bucket_object" "s3obj" {
-  bucket = "shubh0709"
-  key    = "shubh.jpeg"
-  source = "C:/Users/Shubh/Desktop/shubh.jpeg"
-  acl = "public-read"
-  content_type = "image or jpeg"
-  }
-
 
 resource "aws_cloudfront_distribution" "s3_distribution" {
   origin {
@@ -230,7 +222,13 @@ resource "aws_cloudfront_distribution" "s3_distribution" {
   }
 }
 
-
+resource "aws_s3_bucket_object" "s3obj" {
+  bucket = "shubh0709"
+  key    = "shubh.jpeg"
+  source = "C:/Users/Shubh/Desktop/shubh.jpeg"
+  acl = "public-read"
+  content_type = "image or jpeg"
+  }
 
 resource "null_resource" "null"{
   provisioner "local-exec"{
