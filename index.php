@@ -5,7 +5,7 @@ These are my friends.
 <body>
 <?php
 
-echo "<img src='http://d28anjt8mt817n.cloudfront.net/friends.jpeg' width='300' height='270'/>"
+echo "<img src='http://d3tqdqhmctps9.cloudfront.net/friends.jpg' width='1000' height='600'/>"
 
 ?>
 </body>
